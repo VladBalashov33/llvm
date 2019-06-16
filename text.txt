@@ -1,0 +1,28 @@
+program abc;
+var a,b,m,n,r: integer;
+var u : float;
+@без коментариев@
+function min(var x, y: integer;): integer;
+{
+if ((not x < y) and (x > y)) {
+	integer min := y;
+	}
+	else { 
+	integer min := x;
+	};
+print (min);
+}
+
+{
+integer b := 10 * 10;
+integer a := b - 98;
+integer m := min(a,b);
+float u := 13.14;
+integer n := 1;
+while (n < 10)do
+	{
+	integer r := n;
+	integer n := r + 2;
+	print(n);
+	};
+}
