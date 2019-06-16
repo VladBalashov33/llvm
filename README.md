@@ -14,3 +14,11 @@ LLC (LLVM static compiler)
 
 GCC (or other linking tool)
 
+
+Start program:
+
+$ llc -filetype=obj output.ll
+
+$ gcc output.o -o output
+
+$ ./output
